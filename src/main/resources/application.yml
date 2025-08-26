@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${postgres.url}
+    username: ${postgres.username}
+    password: ${postgres.password}
+  mvc:
+    log-request-details: true
+
+api:
+  base-url: "https://api.themoviedb.org/3/"
+  auth-token: ${token}
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.apache.hc.client5.http.wire: DEBUG
