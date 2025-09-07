@@ -6,6 +6,6 @@ import lombok.Data;
 public class TmdbResponse {
     private int page;
     private MovieDto[] results;
-    private int total_pages;
-    private int total_results;
+    private int totalPages;
+    private int totalResults;
 }

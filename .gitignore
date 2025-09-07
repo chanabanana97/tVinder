@@ -38,3 +38,5 @@ build/
 .DS_Store
 /.idea/uiDesigner.xml
 /.idea/copilotDiffState.xml
+/.idea/vcs.xml
+/.idea/
